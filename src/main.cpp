@@ -16,14 +16,19 @@ void setup() {
     display.setTextSize(1);
     display.setTextColor(SSD1306_WHITE);
     display.setCursor(0,0);
-     display.println("Arduino UNO R4");
-     display.println("OLED with I2C");
+//     display.println("Arduino UNO R4");
+//     display.println("OLED with I2C");
+//     display.println("Hello Upasana and Vanshika");
+//     display.println("😄😄😄");
+//     display.display();
+
+
+void loop() {
+    display.println("Arduino UNO R4");
+    display.println("OLED with I2C");
     display.println("Hello Upasana and Vanshika");
     display.println("😄😄😄");
     display.display();
-// write your initialization code here
-}
-
-void loop() {
+    //
 // write your code here
 }
